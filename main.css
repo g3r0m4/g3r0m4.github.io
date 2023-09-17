@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  display: flex;
+  
   justify-content: center;
   align-items: center;
   background: var(--background);
@@ -21,17 +21,20 @@ body {
 #hehehe{
   font-family: 'Rajdhani', sans-serif;
   color:grey;
+  
 }
 .container3 {
   color: var(--color:);
   font-size: 1.5rem;
   display: flex;
+  position:fixed;
   flex-direction: column;
 }
 
 .right {
   text-align: right;
   width: 100%;
+
 }
 
 .stack {
@@ -89,7 +92,21 @@ body {
 /*done glitch*/
 
 
+#bb{
+  
+  height:45px;
+  width:80px;
 
+  font-family: Arial;
+  background-color: grey;
+  transition:1s;
+  border:2px solid black;
+  
+}
+#bb:hover{
+  background-color:green;
+  color:white;
+}
 
 
 
@@ -118,6 +135,7 @@ canvas {
 				border:2px solid black;
   
 }
+
 
 .header1 {
   font-family: 'Righteous', cursive;
@@ -155,6 +173,7 @@ canvas {
   }
   .link1 {
     font-size: 4vw;
+    
   }
 }
 
@@ -178,3 +197,5 @@ canvas {
     font-size: 1.2vw;
   }
 }
+
+
