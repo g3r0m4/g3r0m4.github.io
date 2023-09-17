@@ -95,15 +95,18 @@ body {
 #bb{
   
   height:45px;
-  width:80px;
-
+  width:70px;
+  color:white;
+border-radius: 25px;
   font-family: Arial;
-  background-color: grey;
+  background-color: black;
   transition:1s;
-  border:2px solid black;
+  border:2px solid white;
   
 }
 #bb:hover{
+  
+  width:100px;
   background-color:green;
   color:white;
 }
