@@ -58,6 +58,15 @@ function convertText() {
 
             document.getElementById('output').innerText = 'Result: ' + result;
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
         // Encoding Functions
         function stringToHex(input) {
