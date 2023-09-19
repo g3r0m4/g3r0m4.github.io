@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>simple converter</title>
+    <link rel="stylesheet" href="styles_2.css">
+    <script src="script_2.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Mooli&family=Rajdhani&display=swap" rel="stylesheet">
+</head>
+<body>
+   <center>
+       <h1><span>simple</span> converter</h1>
+    <br>
+    <select id="conversionType">
+            <option value="encode">Encode</option>
+            <br>
+            <option value="decode">Decode</option>
+        </select>
+        
+        <select id="encodingType">
+            <option value="base64">Base64</option>
+            <option value="hex">Hexadecimal</option>
+            <option value="url">URL Encoding</option>
+            <option value="binary">Binary</option>
+    <option value="chr">CHR (ASCII Values)</option>
+ <option value="chr-to-string">CHR to String</option>
+        </select>
+        <br>
+        <br>
+     <div class="container">
+       
+        <input type="text" id="inputText" placeholder="Enter a string">
+        
+        
+        <button onclick="convertText()">Convert</button>
+        <br>
+        <div id="output"></div>
+    </div>
+       
+       <p style="color:green">created by jerome (g3r0m4)</p>
+   </center>
+   <br>
+   
+   <br>
+   
+</body>
+</html>
