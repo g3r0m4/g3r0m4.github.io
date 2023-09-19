@@ -59,7 +59,7 @@ left:10px;
     background-color:black;
     border:2px solid red;
     color:white;
-    text-alignment:center;
+    text-align:center;
  height:40px;
  width:40px;
     border-radius:25px;
@@ -71,3 +71,71 @@ left:10px;
     font-size:40px;
 }
 
+.men{
+  font-size:30px;
+}
+
+@media (min-width: 768px) {
+  #hehe {
+    left:100px;
+    top:50px;
+    height:80px;
+ width:90px;
+  }
+  #uh{
+    font-size:70px;
+  }
+.men{
+  font-size:80px;
+}
+
+select{
+
+  font-size:30px;
+  height:110px;
+    width:300px;
+}
+
+input{
+  border:6px solid red;
+  text-align: center;
+  font-size: 30px;
+  width:500px;
+    height:90px;
+    position:absolute;
+    top:30%;
+    right:18%;
+}
+
+input:hover{
+  
+  width:550px;
+    height:100px;
+}
+button{
+  font-size:40px;
+  position:absolute;
+  height:90px;
+    width:180px;
+    top :41%;
+    right:10%;
+    border:5px solid green;
+}
+.n{
+  font-size:30px;
+  position:absolute;
+  top:41%;
+  left:13%;
+}
+#conversionType{
+  position:absolute;
+  top:23%;
+  right:10%;
+}
+
+#encodingType{
+  position: absolute;
+  top:20%;
+  right:50%;
+}
+}
