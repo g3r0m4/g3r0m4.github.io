@@ -281,6 +281,9 @@ header .btns .btn{
   align-items: center;
 }
 
+.span-a{
+    color:red;
+}
 .skill .card{
   display: flex;
   justify-content: center;
